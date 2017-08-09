@@ -25,7 +25,7 @@ f = open("out-"+str(sys.argv[1]), "w",encoding="utf-8")
 
 for l in lines:
 	if not (count%1000):		
-		print("\n[%6d]" % count,end='')
+		print("\n[%6d]" % (count),end='')
 	else:
 		if not (count%10): 
 			sys.stdout.write('.')
