@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
 # For python3 earlier python may garble Japanese text
 # Skelton for reading csv file and writing to json file
+# First line needs to hold the field names.
+
 import sys
 import os
 import csv
